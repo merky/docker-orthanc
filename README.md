@@ -3,11 +3,11 @@ docker-orthanc
 
 Docker container for [Orthanc](http://orthanc-server.com), a lightweight DICOM server
 
-# Build
+### Build
 
     sudo docker build  -rm -t <user>/orthanc git://github.com/merky/docker-orthanc.git
 
-# Run
+### Run
 
 You'll need to modify `example-config.json` and place it within `/some/path/`.
 
